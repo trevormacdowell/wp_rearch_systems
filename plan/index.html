@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html>
+	<head>
+		<title>
+			
+		</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+/* general stuff */
+body 
+{
+    text-align: left;
+    font-family: "helvetica", sans-serif;
+    font-size: 11pt;
+}
+
+a:link
+{
+    color: #0057cb;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #00449e;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #0057cb;
+    text-decoration: underline;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 20pt;
+}
+
+/* index sections */
+h2.section-head-open
+{
+    font-size: 14pt;
+    margin-bottom: 0pt;
+    padding: 4pt;
+    background-color: #e6edff;
+    border-bottom: none;
+    border-top: 1pt solid #888888;
+    border-left: 1pt solid #888888;
+    border-right: 1pt solid #888888;
+}
+
+.section-body
+{
+    margin-top: 0pt;
+    border-bottom: 1pt solid #888888;
+    border-left: 1pt solid #888888;
+    border-right: 1pt solid #888888;
+    overflow: auto;
+}
+
+.section-content
+{
+    padding: 8pt;
+}
+
+table.chunks
+{
+    border-collapse: collapse;
+}
+
+.chunks td
+{
+    text-align: center;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    width: 10%;
+}
+
+.data-label
+{
+    font-weight: bold;
+    color: #333333;
+}
+
+.data-content-huge
+{
+    font-size: 
+    font-weight: bold;
+    color: #666666;
+}
+
+.data-content-big
+{
+    font-size: 24pt;
+    font-weight: bold;
+    color: #666666;
+    vertical-align: top;
+}
+
+.data-content-small
+{
+    font-size: 11pt;
+    font-weight: bold;
+    color: #666666;
+}
+
+/* for escaping from floats */
+div.clearer
+{
+    clear: both;
+}
+
+/* normal data table */
+table.basic
+{
+    border-collapse: collapse;
+    font-size: 9pt;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basic td
+{
+    border: 1pt solid #bfbfbf;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    padding-left: 8pt;
+    padding-right: 8pt;
+}
+
+td.wrap
+{
+    word-wrap: break-word;
+}
+
+td.header 
+{
+    background-color: #bfbfbf;
+    font-weight: bold;
+}
+
+td.level1 
+{
+    padding-left: 10pt;
+}
+
+td.level2 
+{
+    padding-left: 20pt;
+}
+
+td.date 
+{
+    text-align: right;
+}
+
+td.duration 
+{
+    text-align: right;
+}
+
+tr.resource td
+{
+    font-weight: bold;
+}
+
+tr.taskTypeGroup td
+{
+    font-weight: bold;
+}
+
+p.unregistered 
+{
+    text-align: left;
+    font-size: 12pt;
+    color: #333333;
+    border-top: 1pt solid #999999;
+}
+
+p.footer 
+{
+    text-align: center;
+    font-size: 8pt;
+    color: #333333;
+}
+
+ul.report-links
+{
+    margin: 0pt;
+    padding: 4pt;
+    
+    list-style-type: none;
+    line-height: 12pt;
+}
+
+.report-links li
+{
+    display: inline;
+    padding-left: 24pt;
+}
+
+img.small-icon
+{
+    width: 16px;
+    height: 16px;
+    margin-left: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    margin-right: 2pt;
+    vertical-align: middle;
+    border: none;
+}
+
+img.icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 2pt;
+    margin-right: 0pt;
+    vertical-align: middle;
+    border: none;
+}
+</style>
+	</head>
+	<body>
+		<h1>
+			Project Report: 
+		</h1>
+		<h2 class="section-head-open">
+			Project Status
+		</h2>
+		<div class="section-body">
+            <div class="section-content" id="status-content">
+                <table class="chunks">
+                    <tr>
+                        <td class="data-label">Start Date:</td>
+                        <td class="data-label">End Date:</td>
+                        <td class="data-label">Variance:</td>
+                        <td class="data-label">Cost:</td>
+                        <td class="data-label">Completion:</td>
+                    </tr>
+                    <tr>
+                        <td class="data-content-big">3/9/12</td>
+                        <td class="data-content-big">10/5/12</td>
+                        <td class="data-content-big">40h</td>
+                        <td class="data-content-big">$101,519.24</td>
+                        <td class="data-content-big">1%</td>
+                    </tr>
+                </table>
+            </div>
+		</div>
+		<h2 class="section-head-open">
+			Detailed Reports
+		</h2>
+		<div class="section-body">
+            <div class="section-content" id="info-content">
+                <table class="chunks">
+                    <tr>
+                        <td><a href="WordPress%20Infrastructure%20Project%20Plan%20(Resourced).html"><img class="icon" src="include/tasks.png" alt="Task" /><br />Task Report</a></td>
+                        <td><a href="WordPress%20Infrastructure%20Project%20Plan%20(Resourced)Resources.html"><img class="icon" src="include/resource.png" alt="Resource" /><br />Resource Report</a></td>
+                        <td><a href="WordPress%20Infrastructure%20Project%20Plan%20(Resourced)Gantt.html"><img class="icon" src="include/gantt.png" alt="Gantt" /><br />Gantt Chart</a></td>
+			<td><a href="WordPress%20Infrastructure%20Project%20Plan%20(Resourced)Timeline.html"><img class="icon" src="include/timeline.png" alt="Timeline" /><br />Resource Timeline</a></td>
+                        <td><a href="calendars/0%20WordPress%20Infrastructure%20Project%20Plan%20(Resourced).ics"><img class="icon" src="include/milestone.png" alt="iCalendar" /><br />Project Milestones</a></td>
+                    </tr>
+                </table>
+            </div>
+		</div>
+		<h2 class="section-head-open">
+			Resource Calendars
+		</h2>
+        <div class="section-body">
+            <div class="section-content" id="resource-content">
+                <table class="basic" id="resource">
+                    <tr>
+                        <td class='header'>
+                            Resource
+                        </td>
+                        <td class='header'>
+                            Calendar
+                        </td>
+                        <td class='header'>
+                            To-Do List
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Toby Drewry (Application Server)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/2%20Toby%20Drewry%20(Application%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Toby Drewry (Application Server)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/2%20Toby%20Drewry%20(Application%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Toby Drewry (Application Server)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Kevin Ruderman (Fileserver Setup)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/3%20Kevin%20Ruderman%20(Fileserver%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Kevin Ruderman (Fileserver Setup)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/3%20Kevin%20Ruderman%20(Fileserver%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Kevin Ruderman (Fileserver Setup)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Henry Louis-Charles (MySQL VMware Cluster Setup)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/4%20Henry%20Louis-Charles%20(MySQL%20VMware%20Cluster%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Henry Louis-Charles (MySQL VMware Cluster Setup)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/4%20Henry%20Louis-Charles%20(MySQL%20VMware%20Cluster%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Henry Louis-Charles (MySQL VMware Cluster Setup)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Dick Sims (Database Server)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/5%20Dick%20Sims%20(Database%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Dick Sims (Database Server)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/5%20Dick%20Sims%20(Database%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Dick Sims (Database Server)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Bob Given (Database Server Setup)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/6%20Bob%20Given%20(Database%20Server%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Bob Given (Database Server Setup)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/6%20Bob%20Given%20(Database%20Server%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Bob Given (Database Server Setup)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Ghassan Tabbara (Reverse Proxy)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/7%20Ghassan%20Tabbara%20(Reverse%20Proxy).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Ghassan Tabbara (Reverse Proxy)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/7%20Ghassan%20Tabbara%20(Reverse%20Proxy).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Ghassan Tabbara (Reverse Proxy)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Toby Drewry (Application Server)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/8%20Toby%20Drewry%20(Application%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Toby Drewry (Application Server)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/8%20Toby%20Drewry%20(Application%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Toby Drewry (Application Server)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            David King (System Integration)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/9%20David%20King%20(System%20Integration).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for David King (System Integration)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/9%20David%20King%20(System%20Integration).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for David King (System Integration)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Application Developer
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/10%20Application%20Developer.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Application Developer</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/10%20Application%20Developer.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Application Developer</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Kevin Ruderman (Fileserver Setup)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/11%20Kevin%20Ruderman%20(Fileserver%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Kevin Ruderman (Fileserver Setup)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/11%20Kevin%20Ruderman%20(Fileserver%20Setup).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Kevin Ruderman (Fileserver Setup)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Dick Sims (Database Server)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/12%20Dick%20Sims%20(Database%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Dick Sims (Database Server)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/12%20Dick%20Sims%20(Database%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Dick Sims (Database Server)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Dick Sims (Database Server)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/13%20Dick%20Sims%20(Database%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Dick Sims (Database Server)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/13%20Dick%20Sims%20(Database%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Dick Sims (Database Server)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Toby Drewry (Application Server)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/14%20Toby%20Drewry%20(Application%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Toby Drewry (Application Server)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/14%20Toby%20Drewry%20(Application%20Server).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Toby Drewry (Application Server)</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class=\"wrap\">
+                            Ghassan Tabbara (Reverse Proxy)
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="calendars/15%20Ghassan%20Tabbara%20(Reverse%20Proxy).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>Calendar for Ghassan Tabbara (Reverse Proxy)</a>
+                        </td>
+                        <td class=\"wrap\">
+                            <a href="todos/15%20Ghassan%20Tabbara%20(Reverse%20Proxy).ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>To-do list for Ghassan Tabbara (Reverse Proxy)</a>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+        <p class="footer">Exported 4/19/12</p>
+        <p class="footer">OmniPlan&nbsp;2.0.3&nbsp;by <a href="http://www.omnigroup.com">The Omni Group</a></p>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
+PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTART:20120417T120000Z
+DTEND:20120419T210000Z
+DTSTAMP:20120419T125645Z
+SUMMARY:Set up vCenter cluster dedicated to MySQL Vmware instances with one blade in each datacenter
+UID:dhGMR5qM1R2.6
+END:VEVENT
+END:VCALENDAR
