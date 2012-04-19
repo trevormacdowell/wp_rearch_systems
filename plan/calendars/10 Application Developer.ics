@@ -7,7 +7,7 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 DTSTART:20120516T120000Z
 DTEND:20120522T210000Z
-DTSTAMP:20120419T125645Z
+DTSTAMP:20120419T131026Z
 SUMMARY:Applications installs wordpress applications or consults on installation of same as decided during WP install requirements discussion.
 UID:dhGMR5qM1R2.18
 END:VEVENT

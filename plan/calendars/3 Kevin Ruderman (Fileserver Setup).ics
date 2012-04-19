@@ -7,21 +7,21 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 DTSTART:20120417T120000Z
 DTEND:20120418T210000Z
-DTSTAMP:20120419T125645Z
+DTSTAMP:20120419T131026Z
 SUMMARY:Syst WP FS P#1: Allocate default BU linux VM (wpfs-s1) with NFS fileserver export for wpfs-syst virtual IP
 UID:dhGMR5qM1R2.4
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120419T120000Z
 DTEND:20120425T210000Z
-DTSTAMP:20120419T125645Z
+DTSTAMP:20120419T131026Z
 SUMMARY:Syst WP FS P#1: Allocate shared iSCSI LUN from lefthand. Configure NFS fileserver using manual install for proof of concept. Includes switching procedure for umounting /syst on idle server
 UID:dhGMR5qM1R2.5
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120611T120000Z
 DTEND:20120614T210000Z
-DTSTAMP:20120419T125645Z
+DTSTAMP:20120419T131026Z
 SUMMARY:Syst WP FS P#2: Establish NFS fileserver  kickstart config and rpms for wpfs-s2; includes procedures for manually swapping LUN
 UID:dhGMR5qM1R2.21
 END:VEVENT
