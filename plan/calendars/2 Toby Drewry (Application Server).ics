@@ -1,76 +1,76 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
-PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+PRODID:-//The Omni Group//OmniPlan 2.1.2//EN
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 DTSTART:20120309T130000Z
 DTEND:20120312T210000Z
-DTSTAMP:20120419T131026Z
-SUMMARY:Devl WP App: Kickstart initial wpapp-d1 using generic php33 and Apache configuration for Applications development
+DTSTAMP:20120513T142849Z
+SUMMARY:Devl WP App: Kickstart initial vsc80 (cms-devl2) using generic php53 and Apache configuration for Applications development
 UID:dhGMR5qM1R2.2
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120426T120000Z
 DTEND:20120427T210000Z
-DTSTAMP:20120419T131026Z
-SUMMARY:Syst WP App server P#1: Allocate and manually install default BU linux server VM wpapp-s1 with BU apache RPM's as listed.
+DTSTAMP:20120513T142849Z
+SUMMARY:Syst WP App server P#1: Allocate and manually install default BU linux server VM ist-wp-app-syst01 with BU apache RPM's as listed.
 UID:dhGMR5qM1R2.9
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120430T120000Z
 DTEND:20120503T210000Z
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 SUMMARY:Syst WP App: With Applications,review & identify WP install requirements for w3-wpcms-syst, w3-wpasset-syst apache instances. Decide who installs; if SysEng, update spreadsheet
 UID:dhGMR5qM1R2.10
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120504T120000Z
 DTEND:20120509T210000Z
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 SUMMARY:Syst WP App: Develop w3v-wpcms-syst, w3v-wpasset-syst web server configs (from wwwcms03)
 UID:dhGMR5qM1R2.11
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120510T120000Z
 DTEND:20120515T210000Z
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 SUMMARY:Syst WP App: Develop w3-wpcms-syst, w3-wpasset-syst,  web server configs for w3-syst.bu.edu and w3-syst-staging
 UID:dhGMR5qM1R2.12
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120619T120000Z
 DTEND:20120622T210000Z
-DTSTAMP:20120419T131026Z
-SUMMARY:Syst P#2: Establish Kickstart config to install  Apache and php53 for wordpress wpapp-s2
+DTSTAMP:20120513T142849Z
+SUMMARY:Syst P#2: Establish Kickstart config to install  Apache and php53 for wordpress ist-wp-app-syst02
 UID:dhGMR5qM1R2.24
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120710T120000Z
 DTEND:20120717T210000Z
-DTSTAMP:20120419T131026Z
-SUMMARY:Devl WP App: Establish Kickstart config to install  Apache and php53 for wordpress app server on wpapp-d1 (w3-wpcms-devl, w3-wpassets-devl, w3v-wpcms-devl, w3v-wpassets-devl)
+DTSTAMP:20120513T142849Z
+SUMMARY:Devl WP App: Establish Kickstart config to install  Apache and php53 for wordpress app server on ist-wp-app-devl01 (w3-wpcms-devl, w3-wpassets-devl, w3v-wpcms-devl, w3v-wpassets-devl)
 UID:dhGMR5qM1R2.30
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120807T120000Z
 DTEND:20120808T210000Z
-DTSTAMP:20120419T131026Z
-SUMMARY:Test WP App: Pre-Configure web servers: w3-wpcms-test, w3-wpassets-test, w3v-wpcms-test, w3v-wpassets-test for install on wpapp-t1 and wpapp-t2 (pubnet)
+DTSTAMP:20120513T142849Z
+SUMMARY:Test WP App: Pre-Configure web servers: w3-wpcms-test, w3-wpassets-test, w3v-wpcms-test, w3v-wpassets-test for install on ist-wp-app-test01 and ist-wp-app-test02 (pubnet)
 UID:dhGMR5qM1R2.42
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120823T120000Z
 DTEND:20120824T210000Z
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 SUMMARY:WP App DR: Pre-Configure web servers w3-wpcms-dr, w3-wpassets-dr (pubnet)
 UID:dhGMR5qM1R2.53
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20120914T120000Z
 DTEND:20120917T210000Z
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 SUMMARY:Prod WP App: Pre-Configure web servers w3-wpcms-prod, w3-wpassets-prod, w3v-wpcms-prod, w3v-wpassets-prod (pubnet)
 UID:dhGMR5qM1R2.60
 END:VEVENT

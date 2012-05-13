@@ -1,16 +1,16 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
-PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+PRODID:-//The Omni Group//OmniPlan 2.1.2//EN
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Test WP FS: Establish NFS fileserver  kickstart config and deploy wpfs-test on wpfs-t1, wpfs-t2 fileservers  1-256Gb shared LUN(test) for devl and test services
+SUMMARY:Test WP FS: Establish NFS fileserver  kickstart config and deploy ist-wp-fs-test on ist-wp-fs-test01, ist-wp-fs-test02 fileservers  1-256Gb shared LUN(test) for devl and test services
 UID:dhGMR5qM1R2.28
 DTSTART:20120702T080000
 DUE:20120703T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
@@ -18,22 +18,22 @@ SUMMARY:Deploy test server shared with Devl (set up during prior milestone)
 UID:dhGMR5qM1R2.39
 DTSTART:20120802T080000
 DUE:20120802T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:WP FS DR: Deploy wpfs-dr1 VM with 512Gb LUN
+SUMMARY:WP FS DR: Deploy ist-wp-fs-dr01 VM with 512Gb LUN
 UID:dhGMR5qM1R2.50
 DTSTART:20120820T080000
 DUE:20120821T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Prod WP FS: Deploy wpfs-p1, wpfs-p2 VM's with 2Tb shared LUN; configure for manual switching of wpfs-prod virtual IP
+SUMMARY:Prod WP FS: Deploy ist-wp-fs-prod01, ist-wp-fs-prod02 VM's with 2Tb shared LUN; configure for manual switching of ist-wp-fs-prod virtual IP
 UID:dhGMR5qM1R2.57
 DTSTART:20120911T080000
 DUE:20120912T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 END:VCALENDAR

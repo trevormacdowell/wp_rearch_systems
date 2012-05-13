@@ -1,31 +1,31 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
-PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+PRODID:-//The Omni Group//OmniPlan 2.1.2//EN
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Syst WP FS P#1: Allocate default BU linux VM (wpfs-s1) with NFS fileserver export for wpfs-syst virtual IP
+SUMMARY:Syst WP FS P#1: Allocate default BU linux VM (ist-wp-fs-syst01) with NFS fileserver export for ist-wp-fs-syst virtual IP
 UID:dhGMR5qM1R2.4
 DTSTART:20120417T080000
 DUE:20120418T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Syst WP FS P#1: Allocate shared iSCSI LUN from lefthand. Configure NFS fileserver using manual install for proof of concept. Includes switching procedure for umounting /syst on idle server
+SUMMARY:Syst WP FS P#1: Allocate shared LUN (formatted VMDK) from lefthand. Configure NFS fileserver using manual install for proof of concept. Includes switching procedure for umounting /syst on idle server
 UID:dhGMR5qM1R2.5
 DTSTART:20120419T080000
 DUE:20120425T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Syst WP FS P#2: Establish NFS fileserver  kickstart config and rpms for wpfs-s2; includes procedures for manually swapping LUN
+SUMMARY:Syst WP FS P#2: Establish NFS fileserver  kickstart config and rpms for ist-wp-fs-syst02; includes procedures for manually swapping LUN
 UID:dhGMR5qM1R2.21
 DTSTART:20120611T080000
 DUE:20120614T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 END:VCALENDAR

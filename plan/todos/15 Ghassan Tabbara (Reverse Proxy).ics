@@ -1,31 +1,31 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
-PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+PRODID:-//The Omni Group//OmniPlan 2.1.2//EN
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:w3v-devl Reverse Proxy: Install w3v-d1 with apache servers (w3v-devl, *.cms-devl)
+SUMMARY:w3v-devl Reverse Proxy: Install ist-wp-w3v-devl01 with apache servers (w3v-devl, *.cms-devl)
 UID:dhGMR5qM1R2.35
 DTSTART:20120724T080000
 DUE:20120725T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Reverse Proxy Test: Install w3v-t1, w3v-t2 with apache server (w3v-test); configure w3-test to use wpapp-t1,2 servers
+SUMMARY:Reverse Proxy Test: Install ist-wp-w3v-test01, ist-wp-w3v-test02 with apache server (w3v-test); configure w3-test to use ist-wp-app-test01,ist-wp-app-test02 servers
 UID:dhGMR5qM1R2.44
 DTSTART:20120813T080000
 DUE:20120814T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Prod Reverse Proxy: Install w3v-p1, w3v-p2 with apache server (w3v-prod)
+SUMMARY:Prod Reverse Proxy: Install ist-wp-w3v-prod01, ist-wp-w3v-prod02 with apache server (w3v-prod)
 UID:dhGMR5qM1R2.62
 DTSTART:20120920T080000
 DUE:20120921T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 END:VCALENDAR

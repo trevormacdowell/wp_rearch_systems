@@ -1,13 +1,13 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
-PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+PRODID:-//The Omni Group//OmniPlan 2.1.2//EN
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 DTSTART:20120516T120000Z
 DTEND:20120522T210000Z
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142850Z
 SUMMARY:Applications installs wordpress applications or consults on installation of same as decided during WP install requirements discussion.
 UID:dhGMR5qM1R2.18
 END:VEVENT

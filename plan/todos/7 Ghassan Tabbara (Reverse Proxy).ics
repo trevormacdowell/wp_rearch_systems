@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
-PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+PRODID:-//The Omni Group//OmniPlan 2.1.2//EN
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
 BEGIN:VTODO
@@ -10,23 +10,23 @@ SUMMARY:Syst Reverse Proxy P#1: Allocate default BU linux server VM with BU apac
 UID:dhGMR5qM1R2.13
 DTSTART:20120523T080000
 DUE:20120523T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Syst  Reverse Proxy P#1:  Build *.cms-syst.bu.edu web server config forwarding WP traffic to  wpapp-s1:PORT1(w3v-wpcms-syst) and wpapp-s1:PORT2 (w3v-wpassets-syst)
+SUMMARY:Syst  Reverse Proxy P#1:  Build *.cms-syst.bu.edu web server config forwarding WP traffic to  ist-wp-app-syst01:PORT1(w3v-wpcms-syst) and ist-wp-app-syst01:PORT2 (w3v-wpassets-syst)
 UID:dhGMR5qM1R2.14
 DTSTART:20120524T080000
 DUE:20120524T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Syst Reverse Proxy P#1: Configure existing solaris w3-syst web server config as proxy to wpapp-s1:PORT3 (w3-wpcms-syst) and wpapp-s1:PORT4 (w3-wpassets-syst)
+SUMMARY:Syst Reverse Proxy P#1: Configure existing solaris w3-syst web server config as proxy to ist-wp-app-syst01:PORT3 (w3-wpcms-syst) and ist-wp-app-syst01:PORT4 (w3-wpassets-syst)
 UID:dhGMR5qM1R2.15
 DTSTART:20120525T080000
 DUE:20120525T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
@@ -34,14 +34,14 @@ SUMMARY:Syst WP Reverse  Proxy P#2: Establish Kickstart config to install bu-apa
 UID:dhGMR5qM1R2.25
 DTSTART:20120625T080000
 DUE:20120627T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Devl Reverse  Proxy: Establish Kickstart config to install bu-apache for w3v-devl service on VM: w3v-d1
+SUMMARY:Devl Reverse Proxy: Establish Kickstart config to install bu-apache for w3v-devl service on VM: ist-wp-w3v-devl01
 UID:dhGMR5qM1R2.31
 DTSTART:20120720T080000
 DUE:20120723T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 END:VCALENDAR

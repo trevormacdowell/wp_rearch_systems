@@ -1,39 +1,39 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:WordPress Infrastructure Project Plan (Resourced)
-PRODID:-//The Omni Group//OmniPlan 2.0.3//EN
+PRODID:-//The Omni Group//OmniPlan 2.1.2//EN
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Devl WP App Server: Install wpapp-d1 (w3-wpcms-devl, w3-wpassets-devl, w3v-wpcms-devl, w3v-wpassets-devl)
+SUMMARY:Devl WP App Server: Install ist-wp-app-devl01 (w3-wpcms-devl, w3-wpassets-devl, w3v-wpcms-devl, w3v-wpassets-devl)
 UID:dhGMR5qM1R2.34
 DTSTART:20120718T080000
 DUE:20120719T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Test WP App: Install wpapp-t1, wpapp-t2 VMs
+SUMMARY:Test WP App: Install ist-wp-app-test01, ist-wp-app-test02 VMs
 UID:dhGMR5qM1R2.43
 DTSTART:20120809T080000
 DUE:20120810T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:WP App DR: Install wpapp-dr1 VM with two web servers
+SUMMARY:WP App DR: Install ist-wp-app-dr01 VM with two web servers
 UID:dhGMR5qM1R2.54
 DTSTART:20120827T080000
 DUE:20120828T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 BEGIN:VTODO
 SEQUENCE:0
-SUMMARY:Prod WP App: Install wpapp-p1, wpapp-p2, wpapp-p3 VM's with WP App web servers (four web servers per VM)
+SUMMARY:Prod WP App: Install ist-wp-app-prod01, ist-wp-app-prod02, ist-wp-app-prod03 VM's with WP App web servers (four web servers per VM)
 UID:dhGMR5qM1R2.61
 DTSTART:20120918T080000
 DUE:20120919T170000
-DTSTAMP:20120419T131026Z
+DTSTAMP:20120513T142849Z
 END:VTODO
 END:VCALENDAR
